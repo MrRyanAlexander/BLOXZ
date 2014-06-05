@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0029421940209100D97D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0029411940209100D97D82 /* Foundation.framework */; };
+		4D0029441940209100D97D82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0029431940209100D97D82 /* CoreGraphics.framework */; };
+		4D0029461940209100D97D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0029451940209100D97D82 /* UIKit.framework */; };
+		4D0029481940209100D97D82 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0029471940209100D97D82 /* SpriteKit.framework */; };
+		4D00294E1940209100D97D82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D00294C1940209100D97D82 /* InfoPlist.strings */; };
+		4D0029501940209100D97D82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D00294F1940209100D97D82 /* main.m */; };
+		4D0029541940209100D97D82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0029531940209100D97D82 /* AppDelegate.m */; };
+		4D0029571940209100D97D82 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0029551940209100D97D82 /* Main_iPhone.storyboard */; };
+		4D00295A1940209100D97D82 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0029581940209100D97D82 /* Main_iPad.storyboard */; };
+		4D00295D1940209100D97D82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D00295C1940209100D97D82 /* ViewController.m */; };
+		4D0029601940209100D97D82 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D00295F1940209100D97D82 /* MyScene.m */; };
+		4D0029621940209100D97D82 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0029611940209100D97D82 /* Spaceship.png */; };
+		4D0029641940209100D97D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0029631940209100D97D82 /* Images.xcassets */; };
+		4D00296B1940209200D97D82 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D00296A1940209200D97D82 /* XCTest.framework */; };
+		4D00296C1940209200D97D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0029411940209100D97D82 /* Foundation.framework */; };
+		4D00296D1940209200D97D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0029451940209100D97D82 /* UIKit.framework */; };
+		4D0029751940209200D97D82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0029731940209200D97D82 /* InfoPlist.strings */; };
+		4D0029771940209200D97D82 /* BLOXZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0029761940209200D97D82 /* BLOXZTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D00296E1940209200D97D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D0029361940209100D97D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D00293D1940209100D97D82;
+			remoteInfo = BLOXZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D00293E1940209100D97D82 /* BLOXZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLOXZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0029411940209100D97D82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D0029431940209100D97D82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D0029451940209100D97D82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D0029471940209100D97D82 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4D00294B1940209100D97D82 /* BLOXZ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLOXZ-Info.plist"; sourceTree = "<group>"; };
+		4D00294D1940209100D97D82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D00294F1940209100D97D82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0029511940209100D97D82 /* BLOXZ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLOXZ-Prefix.pch"; sourceTree = "<group>"; };
+		4D0029521940209100D97D82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D0029531940209100D97D82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D0029561940209100D97D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4D0029591940209100D97D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4D00295B1940209100D97D82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D00295C1940209100D97D82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D00295E1940209100D97D82 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		4D00295F1940209100D97D82 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		4D0029611940209100D97D82 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		4D0029631940209100D97D82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D0029691940209200D97D82 /* BLOXZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLOXZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D00296A1940209200D97D82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D0029721940209200D97D82 /* BLOXZTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLOXZTests-Info.plist"; sourceTree = "<group>"; };
+		4D0029741940209200D97D82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D0029761940209200D97D82 /* BLOXZTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLOXZTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D00293B1940209100D97D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0029441940209100D97D82 /* CoreGraphics.framework in Frameworks */,
+				4D0029461940209100D97D82 /* UIKit.framework in Frameworks */,
+				4D0029481940209100D97D82 /* SpriteKit.framework in Frameworks */,
+				4D0029421940209100D97D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0029661940209200D97D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D00296B1940209200D97D82 /* XCTest.framework in Frameworks */,
+				4D00296D1940209200D97D82 /* UIKit.framework in Frameworks */,
+				4D00296C1940209200D97D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0029351940209100D97D82 = {
+			isa = PBXGroup;
+			children = (
+				4D0029491940209100D97D82 /* BLOXZ */,
+				4D0029701940209200D97D82 /* BLOXZTests */,
+				4D0029401940209100D97D82 /* Frameworks */,
+				4D00293F1940209100D97D82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D00293F1940209100D97D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D00293E1940209100D97D82 /* BLOXZ.app */,
+				4D0029691940209200D97D82 /* BLOXZTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0029401940209100D97D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D0029411940209100D97D82 /* Foundation.framework */,
+				4D0029431940209100D97D82 /* CoreGraphics.framework */,
+				4D0029451940209100D97D82 /* UIKit.framework */,
+				4D0029471940209100D97D82 /* SpriteKit.framework */,
+				4D00296A1940209200D97D82 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D0029491940209100D97D82 /* BLOXZ */ = {
+			isa = PBXGroup;
+			children = (
+				4D0029521940209100D97D82 /* AppDelegate.h */,
+				4D0029531940209100D97D82 /* AppDelegate.m */,
+				4D0029551940209100D97D82 /* Main_iPhone.storyboard */,
+				4D0029581940209100D97D82 /* Main_iPad.storyboard */,
+				4D00295B1940209100D97D82 /* ViewController.h */,
+				4D00295C1940209100D97D82 /* ViewController.m */,
+				4D00295E1940209100D97D82 /* MyScene.h */,
+				4D00295F1940209100D97D82 /* MyScene.m */,
+				4D0029611940209100D97D82 /* Spaceship.png */,
+				4D0029631940209100D97D82 /* Images.xcassets */,
+				4D00294A1940209100D97D82 /* Supporting Files */,
+			);
+			path = BLOXZ;
+			sourceTree = "<group>";
+		};
+		4D00294A1940209100D97D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D00294B1940209100D97D82 /* BLOXZ-Info.plist */,
+				4D00294C1940209100D97D82 /* InfoPlist.strings */,
+				4D00294F1940209100D97D82 /* main.m */,
+				4D0029511940209100D97D82 /* BLOXZ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D0029701940209200D97D82 /* BLOXZTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D0029761940209200D97D82 /* BLOXZTests.m */,
+				4D0029711940209200D97D82 /* Supporting Files */,
+			);
+			path = BLOXZTests;
+			sourceTree = "<group>";
+		};
+		4D0029711940209200D97D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0029721940209200D97D82 /* BLOXZTests-Info.plist */,
+				4D0029731940209200D97D82 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D00293D1940209100D97D82 /* BLOXZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D00297A1940209200D97D82 /* Build configuration list for PBXNativeTarget "BLOXZ" */;
+			buildPhases = (
+				4D00293A1940209100D97D82 /* Sources */,
+				4D00293B1940209100D97D82 /* Frameworks */,
+				4D00293C1940209100D97D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLOXZ;
+			productName = BLOXZ;
+			productReference = 4D00293E1940209100D97D82 /* BLOXZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D0029681940209200D97D82 /* BLOXZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D00297D1940209200D97D82 /* Build configuration list for PBXNativeTarget "BLOXZTests" */;
+			buildPhases = (
+				4D0029651940209200D97D82 /* Sources */,
+				4D0029661940209200D97D82 /* Frameworks */,
+				4D0029671940209200D97D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D00296F1940209200D97D82 /* PBXTargetDependency */,
+			);
+			name = BLOXZTests;
+			productName = BLOXZTests;
+			productReference = 4D0029691940209200D97D82 /* BLOXZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D0029361940209100D97D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "LGMRA Studios";
+				TargetAttributes = {
+					4D0029681940209200D97D82 = {
+						TestTargetID = 4D00293D1940209100D97D82;
+					};
+				};
+			};
+			buildConfigurationList = 4D0029391940209100D97D82 /* Build configuration list for PBXProject "BLOXZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D0029351940209100D97D82;
+			productRefGroup = 4D00293F1940209100D97D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D00293D1940209100D97D82 /* BLOXZ */,
+				4D0029681940209200D97D82 /* BLOXZTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D00293C1940209100D97D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0029621940209100D97D82 /* Spaceship.png in Resources */,
+				4D0029641940209100D97D82 /* Images.xcassets in Resources */,
+				4D00295A1940209100D97D82 /* Main_iPad.storyboard in Resources */,
+				4D0029571940209100D97D82 /* Main_iPhone.storyboard in Resources */,
+				4D00294E1940209100D97D82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0029671940209200D97D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0029751940209200D97D82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D00293A1940209100D97D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0029601940209100D97D82 /* MyScene.m in Sources */,
+				4D00295D1940209100D97D82 /* ViewController.m in Sources */,
+				4D0029541940209100D97D82 /* AppDelegate.m in Sources */,
+				4D0029501940209100D97D82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0029651940209200D97D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0029771940209200D97D82 /* BLOXZTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D00296F1940209200D97D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D00293D1940209100D97D82 /* BLOXZ */;
+			targetProxy = 4D00296E1940209200D97D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D00294C1940209100D97D82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D00294D1940209100D97D82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D0029551940209100D97D82 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0029561940209100D97D82 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4D0029581940209100D97D82 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0029591940209100D97D82 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4D0029731940209200D97D82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0029741940209200D97D82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D0029781940209200D97D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D0029791940209200D97D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D00297B1940209200D97D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLOXZ/BLOXZ-Prefix.pch";
+				INFOPLIST_FILE = "BLOXZ/BLOXZ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D00297C1940209200D97D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLOXZ/BLOXZ-Prefix.pch";
+				INFOPLIST_FILE = "BLOXZ/BLOXZ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D00297E1940209200D97D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLOXZ.app/BLOXZ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLOXZ/BLOXZ-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLOXZTests/BLOXZTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D00297F1940209200D97D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLOXZ.app/BLOXZ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLOXZ/BLOXZ-Prefix.pch";
+				INFOPLIST_FILE = "BLOXZTests/BLOXZTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0029391940209100D97D82 /* Build configuration list for PBXProject "BLOXZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0029781940209200D97D82 /* Debug */,
+				4D0029791940209200D97D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D00297A1940209200D97D82 /* Build configuration list for PBXNativeTarget "BLOXZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D00297B1940209200D97D82 /* Debug */,
+				4D00297C1940209200D97D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D00297D1940209200D97D82 /* Build configuration list for PBXNativeTarget "BLOXZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D00297E1940209200D97D82 /* Debug */,
+				4D00297F1940209200D97D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D0029361940209100D97D82 /* Project object */;
+}
